@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Cynthia Wanyeki</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">CynthiaW</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">My Portfolio</h1>
+            <p class="page-subtitle">Showcasing innovative solutions across AI, Data Science, and Software Development</p>
+        </div>
+    </section>
+
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai">AI & Automation</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="software">Software Development</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="projects-container">
+                <!-- AI & Automation Projects -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-robot"></i>
+                            <p>Customer Support AI Assistant</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tai Sacco AI Assistant</h3>
+                        <p class="project-description">Intelligent customer support chatbot handling member queries, transaction history, and account management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Rasa</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLU</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-globe-africa"></i>
+                            <p>Multilingual Virtual Tour Guide</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>East African Virtual Tour Guide</h3>
+                        <p class="project-description">Multilingual AI guide providing cultural and travel information across East African regions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Rasa CALM</span>
+                            <span class="tech-tag">Multilingual NLP</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Google Maps API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cogs"></i>
+                            <p>Workflow Automation System</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>n8n Workflow Automations</h3>
+                        <p class="project-description">Custom workflow automation solutions for businesses, integrating multiple platforms and services.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">n8n</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Webhooks</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Templates</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Science Projects -->
+                <div class="project-card" data-category="data">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-pie"></i>
+                            <p>Customer Segmentation</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Customer Segmentation Model</h3>
+                        <p class="project-description">Machine learning model for customer segmentation and targeted marketing strategies.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">K-means</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-chart-bar"></i> Analysis</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="data">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-comment-dots"></i>
+                            <p>Sentiment Analysis</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>NLP Sentiment Analysis</h3>
+                        <p class="project-description">Real-time sentiment analysis of customer reviews and social media data.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software Development Projects -->
+                <div class="project-card" data-category="software">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>E-commerce Platform</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Full-Stack E-commerce Solution</h3>
+                        <p class="project-description">Complete e-commerce platform with inventory management, payment processing, and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Frontend</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Backend</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="software">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                            <p>Learning Management System</p>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>EdTech Learning Platform</h3>
+                        <p class="project-description">Interactive learning management system with progress tracking and certification.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python Flask</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="js/portfolio.js"></script>
+
+        <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cynthia Wanyeki</h3>
+                    <p>AI Engineer, Data Scientist & Software Developer building intelligent solutions for the future.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-menu">
+                        <li><a href="services.html">AI & Automation</a></li>
+                        <li><a href="services.html">Data Science</a></li>
+                        <li><a href="services.html">Software Development</a></li>
+                        <li><a href="services.html">Training</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> nicolecycywriter@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +254 7XX XXX XXX</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cynthia Wanyeki. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="backToTop">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <!-- Only include portfolio.js on portfolio.html -->
+    <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio.html'): ?>
+    <script src="./js/portfolio.js"></script>
+    <?php endif; ?>
+</body>
+</html>
+</body>
+</html>
